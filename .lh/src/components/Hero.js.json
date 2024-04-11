@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Hero.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1710330968502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710336963109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Hero = () => {\r\n   return (\r\n     <section className=\"hero\" id=\"home\">\r\n       <div className=\"hero-banner\">\r\n-        <h1>继续探索</h1>\r\n+        <h1>Backroads App</h1>\r\n         <p>\r\n           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae\r\n           explicabo debitis est autem dicta.\r\n         </p>\r\n"
+                },
+                {
+                    "date": 1710337020232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Hero = () => {\r\n   return (\r\n     <section className=\"hero\" id=\"home\">\r\n       <div className=\"hero-banner\">\r\n-        <h1>继续探索</h1>\r\n+        <h1>Backroads App</h1>\r\n         <p>\r\n           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae\r\n           explicabo debitis est autem dicta.\r\n         </p>\r\n"
+                }
+            ],
+            "date": 1710330968502,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Hero = () => {\r\n  return (\r\n    <section className=\"hero\" id=\"home\">\r\n      <div className=\"hero-banner\">\r\n        <h1>继续探索</h1>\r\n        <p>\r\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae\r\n          explicabo debitis est autem dicta.\r\n        </p>\r\n        <a href=\"#tours\" className=\"btn hero-btn\">\r\n          浏览游览线路\r\n        </a>\r\n      </div>\r\n    </section>\r\n  );\r\n}\r\n\r\nexport default Hero"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Service.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1710414744343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710414750424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const Service = () => {\r\n   return (\r\n-    <article className=\"service\" key={id}>\r\n+    <article className=\"service\" >\r\n       <span className=\"service-icon\">\r\n         <i className={icon}></i>\r\n       </span>\r\n       <div className=\"service-info\">\r\n"
+                },
+                {
+                    "date": 1710414756812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\r\n \r\n-const Service = () => {\r\n+const Service = ({icon,title,text}) => {\r\n   return (\r\n     <article className=\"service\">\r\n       <span className=\"service-icon\">\r\n         <i className={icon}></i>\r\n"
+                }
+            ],
+            "date": 1710414744343,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Service = () => {\r\n  return (\r\n    <article className=\"service\" key={id}>\r\n      <span className=\"service-icon\">\r\n        <i className={icon}></i>\r\n      </span>\r\n      <div className=\"service-info\">\r\n        <h4 className=\"service-title\">{title}</h4>\r\n        <p className=\"service-text\">{text}</p>\r\n      </div>\r\n    </article>\r\n  );\r\n}\r\n\r\nexport default Service"
+        }
+    ]
+}

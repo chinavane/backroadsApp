@@ -1,0 +1,22 @@
+{
+    "sourceFile": "public/js/app.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1710411929187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710411965467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,11 @@\n-\n-\n // ********** nav toggle ************\n // select button and links\n-const navBtn = document.getElementById('nav-toggle')\n-const links = document.getElementById('nav-links')\n+const navBtn = document.getElementById(\"nav-toggle\");\n+const links = document.getElementById(\"nav-links\");\n // add event listener\n-navBtn.addEventListener('click', () => {\n-  links.classList.toggle('show-links')\n-})\n+navBtn.addEventListener(\"click\", () => {\n+  links.classList.toggle(\"show-links\");\n+});\n \n // ********** smooth scroll ************\n // select links\n"
+                }
+            ],
+            "date": 1710411929187,
+            "name": "Commit-0",
+            "content": "\n\n// ********** nav toggle ************\n// select button and links\nconst navBtn = document.getElementById('nav-toggle')\nconst links = document.getElementById('nav-links')\n// add event listener\nnavBtn.addEventListener('click', () => {\n  links.classList.toggle('show-links')\n})\n\n// ********** smooth scroll ************\n// select links\n"
+        }
+    ]
+}

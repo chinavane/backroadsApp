@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1710331056054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710334485888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import React from \"react\";\r\n+import { pageLinks } from \"../data\";\r\n \r\n const Footer = () => {\r\n   return (\r\n     <footer className=\"section footer\">\r\n"
+                },
+                {
+                    "date": 1710334529459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,14 +4,21 @@\n const Footer = () => {\r\n   return (\r\n     <footer className=\"section footer\">\r\n       <ul className=\"footer-links\">\r\n+        {\r\n+          pageLinks.map(link=>{\r\n+            return (\r\n+              <li key={link.id}>\r\n+                <a href={link.href} className=\"footer-link\">\r\n+                  {link.text}\r\n+                </a>\r\n+              </li>\r\n+            );\r\n+          })\r\n+        }\r\n+\r\n         <li>\r\n-          <a href=\"#home\" className=\"footer-link\">\r\n-            首页\r\n-          </a>\r\n-        </li>\r\n-        <li>\r\n           <a href=\"#about\" className=\"footer-link\">\r\n             关于我们\r\n           </a>\r\n         </li>\r\n"
+                }
+            ],
+            "date": 1710331056054,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Footer = () => {\r\n  return (\r\n    <footer className=\"section footer\">\r\n      <ul className=\"footer-links\">\r\n        <li>\r\n          <a href=\"#home\" className=\"footer-link\">\r\n            首页\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#about\" className=\"footer-link\">\r\n            关于我们\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#services\" className=\"footer-link\">\r\n            服务\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#featured\" className=\"footer-link\">\r\n            精选线路\r\n          </a>\r\n        </li>\r\n      </ul>\r\n      <ul className=\"footer-icons\">\r\n        <li>\r\n          <a\r\n            href=\"https://www.facebook.com\"\r\n            target=\"_blank\"\r\n            className=\"footer-icon\"\r\n          >\r\n            <i className=\"fab fa-facebook\"></i>\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a\r\n            href=\"https://www.twitter.com\"\r\n            target=\"_blank\"\r\n            className=\"footer-icon\"\r\n          >\r\n            <i className=\"fab fa-twitter\"></i>\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a\r\n            href=\"https://www.squarespace.com/\"\r\n            target=\"_blank\"\r\n            className=\"footer-icon\"\r\n          >\r\n            <i className=\"fab fa-squarespace\"></i>\r\n          </a>\r\n        </li>\r\n      </ul>\r\n      <p className=\"copyright\">\r\n        版权所有 © Backroads旅行公司\r\n        <span id=\"date\"></span> 保留所有权利\r\n      </p>\r\n    </footer>\r\n  );\r\n}\r\n\r\nexport default Footer"
+        }
+    ]
+}
